@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="verdier">
+        <item>fluid ounce</item>
+        <item>cup</item>
+        <item>gallon</item>
+        <item>hogshead</item>
+    </string-array>
+
+    <string name="app_name">abdulrad_oblig</string>
+    <string name="usant">Usant</string>
+    <string name="restart">Restart</string>
+    <string name="sant">Sant</string>
+</resources>
