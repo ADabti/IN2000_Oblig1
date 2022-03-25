@@ -1,4 +1,4 @@
-package com.example.abdulrad_oblig
+package com.example.in2000_oblig1
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity

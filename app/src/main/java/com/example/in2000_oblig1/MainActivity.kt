@@ -1,5 +1,6 @@
-package com.example.abdulrad_oblig
+package com.example.in2000_oblig1
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,6 +11,7 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,11 +21,11 @@ class MainActivity : AppCompatActivity() {
         val visResultat = findViewById<TextView>(R.id.visSvar)
         val neste = findViewById<Button>(R.id.button2)
         checkOrd.setOnClickListener {
-            var tekst = brukerInput.text.toString()
+            val tekst = brukerInput.text.toString()
             if (tekst == tekst.reversed()){
-                visResultat.setText("$tekst er et plandrom")
+                visResultat.text = "$tekst er et plandrom"
             }else{
-                visResultat.setText("$tekst er ikke et plandrom")
+                visResultat.text = "$tekst er ikke et plandrom"
             }
             brukerInput.setText("")
             checkOrd.onEditorAction(EditorInfo.IME_ACTION_DONE)

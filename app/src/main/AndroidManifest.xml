@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.abdulrad_oblig">
+    package="com.example.in2000_oblig1">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Abdulrad_oblig">
         <activity
-            android:name=".QuizActivity"
+            android:name="com.example.in2000_oblig1.QuizActivity"
             android:exported="false" />
         <activity
-            android:name=".ConverterActivity"
+            android:name="com.example.in2000_oblig1.ConverterActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.in2000_oblig1.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

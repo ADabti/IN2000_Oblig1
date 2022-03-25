@@ -1,3 +1,3 @@
-package com.example.abdulrad_oblig
+package com.example.in2000_oblig1
 
 class Quistion(val spm: String, val sant: Boolean)

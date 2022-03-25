@@ -1,4 +1,4 @@
-package com.example.abdulrad_oblig
+package com.example.in2000_oblig1
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
